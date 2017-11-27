@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "楷体";
+  text-size-adjust: 100%; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+input {
+  -webkit-appearance: none; }
+
+html, body, .wrap {
+  height: 100%;
+  width: 100%;
+  background: #DDDDDD; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+header {
+  height: .6rem;
+  background: #05C1B0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .12rem; }
+  header a {
+    color: #fff;
+    flex-basis: 2;
+    font-size: .16rem; }
+  header .a3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header a:nth-child(2) {
+    flex: 1;
+    text-align: center;
+    position: relative; }
+    header a:nth-child(2) i.icon {
+      position: absolute;
+      left: .25rem;
+      top: .1rem; }
+    header a:nth-child(2) input {
+      width: 90%;
+      height: .35rem;
+      border: 0;
+      background: #06A495;
+      color: #fff;
+      padding-left: .3rem; }
+
+section {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #F0EFEB; }
+  section .ban {
+    width: 100%;
+    height: auto;
+    background: #F0EFED; }
+    section .ban img {
+      width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto; }
+  section .list {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap; }
+    section .list li {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: .1rem 0;
+      flex-direction: column;
+      font-size: .14rem; }
+      section .list li img {
+        width: 80%;
+        height: auto;
+        margin-bottom: .1rem; }
+  section .list2 {
+    margin-top: .15rem;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff; }
+    section .list2 li {
+      width: 33.33%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 1px solid #ccc; }
+      section .list2 li h3 {
+        line-height: .3rem;
+        background: #fff;
+        text-align: center; }
+      section .list2 li .li3 {
+        border-right: 0; }
+      section .list2 li p {
+        font-size: .12rem;
+        line-height: .25rem; }
+      section .list2 li img {
+        width: 80%;
+        height: auto; }
+
+.box {
+  width: 100%;
+  height: auto;
+  margin-top: .1rem;
+  padding: 0 .1rem;
+  background: #fff; }
+  .box h2 {
+    line-height: .35rem;
+    border-bottom: 1px solid #ccc; }
+  .box dl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #ccc; }
+    .box dl dt {
+      flex-basis: 3; }
+      .box dl dt img {
+        width: 100%;
+        height: auto;
+        display: block; }
+    .box dl dd {
+      flex-basis: 7;
+      padding-left: .12rem; }
+      .box dl dd h4 {
+        line-height: .35rem; }
+      .box dl dd p {
+        line-height: .3rem;
+        font-size: .12rem; }
+        .box dl dd p span {
+          color: #49A09A;
+          font-size: .16rem; }
+      .box dl dd b {
+        position: absolute;
+        right: 0rem;
+        bottom: .1rem;
+        font-size: .12rem;
+        font-weight: 400; }
+        .box dl dd b em {
+          font-size: .12rem; }
+
+/*# sourceMappingURL=style.css.map */
